@@ -2,16 +2,16 @@ package com.example.viewmodelkt
 
 object UserData {
     fun getUsers() = listOf(
-        User("Marilyn Monroe", "American actress, singer, model"),
-        User("Abraham Lincoln", "US President during American civil war"),
+        User("Marilyn Monroe", "American actress, singer, model","actress"),
+        User("Abraham Lincoln", "US President during American civil war","President"),
         User("Mother Teresa", "Macedonian Catholic missionary nun"),
-        User("John F. Kennedy ", "US President 1961 – 1963")
+        User("John F. Kennedy ", "US President 1961 – 1963","President")
     )
 
     fun getAnotherUsers() = listOf(
         User("Martin Luther King", "American civil rights campaigner"),
-        User("Nelson Mandela", "South African President anti-apartheid campaigner"),
-        User("Queen Elizabeth", "British monarch since 1954"),
+        User("Nelson Mandela", "South African President anti-apartheid campaigner","President"),
+        User("Queen Elizabeth", "British monarch since 1954","President"),
         User("Winston Churchill", "British Prime Minister during WWII"),
         User("Donald Trump", "Businessman, US President."),
         User("Bill Gates", "American businessman, founder of Microsoft"),
